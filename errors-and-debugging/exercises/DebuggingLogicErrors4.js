@@ -28,6 +28,9 @@ if (crewStatus && computerStatus === 'green'){
 }
 
 console.log("launchReady = ", launchReady);
+/* launchReady should be false. The program is not behaving as expected due to launchReady being false in the first if statement, 
+but is true in the second if statement. 
+*/
 
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
